@@ -8,5 +8,8 @@ module.exports = {
     sourceType: 'module',
   },
   extends: ['eslint:recommended', 'plugin:vue/vue3-recommended', 'prettier'],
-  rules: {},
+  rules: {
+    'vue/attribute-hyphenation': 0,
+    'vue/no-mutating-props': 0,
+  },
 }
